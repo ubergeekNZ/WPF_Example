@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="CommsDemo.Views.LedSegment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CommsDemo.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="180">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/CommsDemo;component/Resources/Images/BLANK.bmp"/>
+        </Grid.Background>
+        <Image x:Name="UpperFirstSegment" Source="{Binding UpperFirstPath}" HorizontalAlignment="Left" Height="70" Margin="3,64,0,0" VerticalAlignment="Top" Width="40" />
+        <Image x:Name="UpperSecondSegment" Source="{Binding UpperSecondPath}" HorizontalAlignment="Left" Height="70" Margin="43,64,0,0" VerticalAlignment="Top" Width="40" />
+        <Image x:Name="UpperThirdSegment" Source="{Binding UpperThirdPath}" HorizontalAlignment="Left" Height="70" Margin="86,64,0,0" VerticalAlignment="Top" Width="40" />
+        <Image x:Name="LowerFirstSegment" Source="{Binding LowerFirstPath}" HorizontalAlignment="Left" Height="70" Margin="3,144,0,0" VerticalAlignment="Top" Width="40" />
+        <Image x:Name="LowerSecondSegment" Source="{Binding LowerSecondPath}" HorizontalAlignment="Left" Height="70" Margin="43,144,0,0" VerticalAlignment="Top" Width="40"  />
+        <Image x:Name="LowerThirdSegment" Source="{Binding LowerThirdPath}" HorizontalAlignment="Left" Height="70" Margin="86,144,0,0" VerticalAlignment="Top" Width="40" />
+        <Image x:Name="UpperFourthSegment" Source="{Binding UpperThirdPath}" HorizontalAlignment="Left" Height="70" Margin="128,64,0,0" VerticalAlignment="Top" Width="40" />
+        <Image x:Name="LowerFourthSegment" Source="{Binding LowerThirdPath}" HorizontalAlignment="Left" Height="70" Margin="128,144,0,0" VerticalAlignment="Top" Width="40" />
+    </Grid>
+</UserControl>

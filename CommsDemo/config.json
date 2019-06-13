@@ -1,0 +1,36 @@
+﻿{
+  "audiosConfig": {
+    "beepWaveFile": "Beep7.wav"
+  },
+  "buttonConfig": {
+    "buttons" : [
+      {
+        "cmd" : "BTN1",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "cmd" : "BTN2",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "cmd" : "BTN3",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "cmd" : "BTN4",
+        "x": 4,
+        "y": 4
+      }
+    ]
+  },
+  "displayConfig": {
+    "test": 55
+  },
+  "commsConfig": {
+    "port": "COM3",
+    "baud":  "1200"
+  } 
+}
